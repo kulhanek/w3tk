@@ -1,0 +1,8 @@
+// =============================================================================
+// w3tk - WWW ToolKit
+// -----------------------------------------------------------------------------
+
+
+CSmallString TransformQueryString(const CSmallString& string);
+
+optimalizace a kontrola
