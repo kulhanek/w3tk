@@ -10,5 +10,5 @@ SET(TEST_FCGI_OBJ
 
 # final build ------------------------------------------------------------------
 ADD_EXECUTABLE(test.fcgi ${TEST_FCGI_OBJ})
-
+ADD_DEPENDENCIES(test.fcgi w3tk)
 TARGET_LINK_LIBRARIES(test.fcgi w3tk ${HIPOLY_LIB_NAME} ${SYSTEM_LIBS})
