@@ -14,5 +14,5 @@ SET(GRAPH_FCGI_OBJ
 
 # final build ------------------------------------------------------------------
 ADD_EXECUTABLE(graph.fcgi ${GRAPH_FCGI_OBJ})
-ADD_DEPENDENCIES(graph.fcgi w3tk)
+ADD_DEPENDENCIES(graph.fcgi w3tk_shared)
 TARGET_LINK_LIBRARIES(graph.fcgi w3tk gd ${HIPOLY_LIB_NAME} ${SYSTEM_LIBS})
